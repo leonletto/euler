@@ -3,7 +3,7 @@
 
 var isprime=function(candidate){
 	var x=2;
-	while(x < candidate/2){
+	while(x <= candidate/2){
 		if(candidate%x==0){
 			return 0;
 		}
