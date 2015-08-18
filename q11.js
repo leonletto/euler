@@ -70,3 +70,28 @@ for (var a=0;a<20;a++){
 	}
 }
 console.log(highest);
+
+
+
+
+
+// Found a better solution for next Time
+//Rangesvar max = 0, localMax;
+// for (var i = 0; i < gridArr.length - 3; ++i) {
+//    for (var j = 0; j < gridArr[0].length - 3; ++j) {
+//       var mulH = 1;
+//       var mulV = 1;
+//       var mulD = 1;
+//       var mulD2 = 1;
+//Using this technique we calculate the 4 different products simultaneously :)
+//       for (var a = 0; a < 4; ++a) {
+//          mulH *= gridArr[i][j + a];
+//          mulV *= gridArr[i + a][j];
+//          mulD *= gridArr[i + a][j + a];
+//          mulD2 *= gridArr[i + a][j - a];
+//       }
+
+//       localMax = Math.max(mulH, mulV, mulD, mulD2);
+//       if(localMax > max) max = localMax;
+//    }
+// }
